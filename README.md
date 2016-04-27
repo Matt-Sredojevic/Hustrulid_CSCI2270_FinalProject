@@ -82,10 +82,11 @@ HOW TO RUN
   12. Quit
 
 DEPENDENCIES
-  No Third Party libraries are required for this program to run. Only the standard Library, and vector Library.
+
+No Third Party libraries are required for this program to run. Only the standard Library, and vector Library.
 
 SYSTEM REQUIREMENTS:
-  No other requirements are needed other than a C++ application for building and running the program.
+No other requirements are needed other than a C++ application for building and running the program.
 
 GROUP MEMBERS:
   Tristan Hustrulid
