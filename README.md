@@ -3,32 +3,40 @@
 PROJECT SUMMARY
 
   This project functions as an addition to the Communication Network (Assignment4 in CSCI 2270). The program acts as a menu style program, similar to the previous Assignments throughout the semester. Some of the changes/additions include...
-    ->Instead of only being able to transmit messages across the coast, the user is able to transmit messages to specific cities of the users interest.
+  
+    ->Instead of only being able to transmit messages across the coast, the user is able to transmit messages to specifi cities of the users interest.
+    
     -> The user has an initial personal balance of $20 to send messages with. Every city that must pass/send a message charges $1. However, the cities do not charge for recieved messages. These cities collect this money from the personal balance and record it in their city balance. If the user does not have enough money to send the message, the message will not be sent. If the user runs out of money, they are able to earn more money by playing random games.
+    
     ->The user can see if he/she can send the message to a particular city by checking the cost to send a message to the particular city. That way, if the user does not want to earn more money and just spend it all, he can do so by first checking the cost of sending the message to a specific city.
     
   The menu options include...
   
     1. Build Network: This method imports a linked list containing cities. The linked list is represented as the following,
-    
-                NULL <- Los Angeles <-> Phoenix <-> Denver <-> Dallas <-> St.Louis <-> Chicago <-> Atlanta <-> Washington, D.C. <-> New York <-> Boston -> NULL
+          
+          NULL <- Los Angeles <-> Phoenix <-> Denver <-> Dallas <-> St.Louis <-> Chicago <-> Atlanta <-> Washington, D.C. <-> New York <-> Boston -> NULL
                 
         The method is REQUIRED for any other operation. Calling the other methods except for exit and check personal balance will result in an error message.
         
-    2. Print Network Path: This method prints the linked list after is has been created. This print looks very similar to     the build network example shown above. However, It will show changes in newly added or deleted cities.
+    2. Print Network Path: This method prints the linked list after is has been created. This print looks very similar to the build network example shown above. However, It will show changes in newly added or deleted cities.
     
-    3. Transmit Message Coast-to-Coast: This method sends a message through the entire linked list, given that the user has     sufficient funds to do so.
+    3. Transmit Message Coast-to-Coast: This method sends a message through the entire linked list, given that the user has sufficient funds to do so.
     
-    4. Transmit Message to Specific City: This method sends a message through the linked list to a specific city, given        that the user has sufficient funds to do so and the city exists. The message will not be passed any further than       the specified city.
+    4. Transmit Message to Specific City: This method sends a message through the linked list to a specific city, given that the user has sufficient funds to do so and the city exists. The message will not be passed any further than the specified city.
     
     5. Check Cost to Transmit Message: This method checks the cost of sending a message to any city in the linked list.
     
-    6. Add City: This method adds another node to the linked list. All that is required is the name of the new city and the     city that it will be placed in front of.
+    6. Add City: This method adds another node to the linked list. All that is required is the name of the new city and the city that it will be placed in front of.
+    
     7. Delete City: This method deletes a city from the linked list given a city name.
+    
     8. Clear Network: This method deletes the entire linked list of cities.
+    
     9. Display Personal Balance: This method simply prints the users current balance.
+    
     10. Print City Balance: This method prints how much the city has earned by mailing messages to other cities.
-    11. Earn More Money: This option allows for the user to make more money to send more messages. In other words, this        options allows for the program to continue running without closing it.
+    
+    11. Earn More Money: This option allows for the user to make more money to send more messages. In other words, this options allows for the program to continue running without closing it.
 
 HOW TO RUN
 
