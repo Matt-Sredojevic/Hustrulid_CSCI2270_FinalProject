@@ -1,6 +1,7 @@
 # Hustrulid_CSCI2270_FinalProject
 
-PROJECT SUMMARY\n
+PROJECT SUMMARY
+
   This project functions as an addition to the Communication Network (Assignment4 in CSCI 2270). The program acts as a menu style program, similar to the previous Assignments throughout the semester. Some of the changes/additions include...
     ->Instead of only being able to transmit messages across the coast, the user is able to transmit messages to specific cities of the users interest.
     -> The user has an initial personal balance of $20 to send messages with. Every city that must pass/send a message charges $1. However, the cities do not charge for recieved messages. These cities collect this money from the personal balance and record it in their city balance. If the user does not have enough money to send the message, the message will not be sent. If the user runs out of money, they are able to earn more money by playing random games.
