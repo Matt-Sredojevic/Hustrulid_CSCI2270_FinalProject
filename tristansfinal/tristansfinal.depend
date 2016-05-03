@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1462139296 source:/home/user/Dropbox/Final_Project/Sredojevic_2270_FinalProject/Final/tristansfinal/main.cpp
+	<iostream>
+	"Mailman.h"
+	<fstream>
+	<sstream>
+
+1462139296 /home/user/Dropbox/Final_Project/Sredojevic_2270_FinalProject/Final/tristansfinal/include/Mailman.h
+	<stdio.h>
+	<iostream>
+	<vector>
+
+1462139296 source:/home/user/Dropbox/Final_Project/Sredojevic_2270_FinalProject/Final/tristansfinal/src/Mailman.cpp
+	"Mailman.h"
+	<fstream>
+	<sstream>
+	<vector>
+	<iostream>
+	<cstdlib>
+
